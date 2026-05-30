@@ -1,0 +1,8 @@
+/Users/jiansongzhao/C_Program/BackTrader/build/CMakeFiles/clean_bin.dir
+/Users/jiansongzhao/C_Program/BackTrader/build/CMakeFiles/edit_cache.dir
+/Users/jiansongzhao/C_Program/BackTrader/build/CMakeFiles/rebuild_cache.dir
+/Users/jiansongzhao/C_Program/BackTrader/build/src/CMakeFiles/edit_cache.dir
+/Users/jiansongzhao/C_Program/BackTrader/build/src/CMakeFiles/rebuild_cache.dir
+/Users/jiansongzhao/C_Program/BackTrader/build/src/testjson/CMakeFiles/testjson.dir
+/Users/jiansongzhao/C_Program/BackTrader/build/src/testjson/CMakeFiles/edit_cache.dir
+/Users/jiansongzhao/C_Program/BackTrader/build/src/testjson/CMakeFiles/rebuild_cache.dir

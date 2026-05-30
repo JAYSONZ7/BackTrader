@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/jiansongzhao/C_Program/BackTrader/build/cmake_install.cmake",
+		"/Users/jiansongzhao/C_Program/BackTrader/build/src/cmake_install.cmake",
+		"/Users/jiansongzhao/C_Program/BackTrader/build/src/testjson/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

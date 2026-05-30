@@ -15,20 +15,4 @@ add_custom_target(clean_bin ALL
     WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-# 源文件收集
-file(GLOB BASE_INCLUDE ${CMAKE_CURRENT_SOURCE_DIR}/src/base/*.h)
-file(GLOB BASE_SRC ${CMAKE_CURRENT_SOURCE_DIR}/src/base/*.cpp)
-file(GLOB SERVER_SRC ${CMAKE_CURRENT_SOURCE_DIR}/src/server/*.cpp)
-file(GLOB CLIENT_SRC ${CMAKE_CURRENT_SOURCE_DIR}/src/client/*.cpp)
-
-# 创建可执行文件
-add_executable(client ${BASE_SRC} ${CLIENT_SRC})
-add_executable(server ${BASE_SRC} ${SERVER_SRC})
-
-# 设置包含目录
-target_include_directories(client PUBLIC ${BASE_INCLUDE})
-target_include_directories(server PUBLIC ${BASE_INCLUDE})
-
-# 使可执行文件依赖于clean_bin目标
-add_dependencies(client clean_bin)
-add_dependencies(server clean_bin)
+add_subdirectory(src)
